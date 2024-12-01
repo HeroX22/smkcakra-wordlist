@@ -23,7 +23,7 @@ done
 # Memastikan IP Address dan Port terisi
 if [[ -z "$IP_ADD" || -z "$IP_PORT" ]]; then
   echo "Error: IP Address dan Port harus diisi."
-  echo "Usage: $0 -i <IP Address> -p <Port>"
+  echo "Usage: $0 sudo ./.shell.sh -i <IP Address> -port <Port>"
   exit 1
 fi
 
